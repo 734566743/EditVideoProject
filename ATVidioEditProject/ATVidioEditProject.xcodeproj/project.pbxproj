@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ED4CB1720CE256100D80D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB1620CE256100D80D34 /* AppDelegate.m */; };
+		4ED4CB1A20CE256100D80D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB1920CE256100D80D34 /* ViewController.m */; };
+		4ED4CB1D20CE256100D80D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4CB1B20CE256100D80D34 /* Main.storyboard */; };
+		4ED4CB1F20CE256300D80D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4CB1E20CE256300D80D34 /* Assets.xcassets */; };
+		4ED4CB2220CE256300D80D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4CB2020CE256300D80D34 /* LaunchScreen.storyboard */; };
+		4ED4CB2520CE256300D80D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB2420CE256300D80D34 /* main.m */; };
+		4ED4CB2F20CE256300D80D34 /* ATVidioEditProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB2E20CE256300D80D34 /* ATVidioEditProjectTests.m */; };
+		4ED4CB3A20CE256300D80D34 /* ATVidioEditProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB3920CE256300D80D34 /* ATVidioEditProjectUITests.m */; };
+		4ED4CB5420CE268100D80D34 /* FMVideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB5220CE268100D80D34 /* FMVideoPlayController.m */; };
+		4ED4CB5820CE26CC00D80D34 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB5720CE26CC00D80D34 /* UIColor+Hex.m */; };
+		4ED4CB5E20CE26E400D80D34 /* XCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB5C20CE26E400D80D34 /* XCFileManager.m */; };
+		4ED4CB6420CE4A0900D80D34 /* ATRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB6320CE4A0900D80D34 /* ATRecordTool.m */; };
+		4ED4CB6A20CE4EE900D80D34 /* ATNewVidioPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB6920CE4EE900D80D34 /* ATNewVidioPlayController.m */; };
+		4ED4CB7020CE555600D80D34 /* ATEditAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB6F20CE555600D80D34 /* ATEditAudioTool.m */; };
+		4ED4CB7320CE55E200D80D34 /* ATVideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB7220CE55E200D80D34 /* ATVideoProgressView.m */; };
+		4ED4CB7720CE576000D80D34 /* ATVidioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB7620CE576000D80D34 /* ATVidioView.m */; };
+		4ED4CB7A20CE585400D80D34 /* ATRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB7920CE585400D80D34 /* ATRecordController.m */; };
+		4ED4CB7D20CE58E300D80D34 /* ATVidioModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4CB7C20CE58E300D80D34 /* ATVidioModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ED4CB2B20CE256300D80D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ED4CB0A20CE256100D80D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED4CB1120CE256100D80D34;
+			remoteInfo = ATVidioEditProject;
+		};
+		4ED4CB3620CE256300D80D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ED4CB0A20CE256100D80D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ED4CB1120CE256100D80D34;
+			remoteInfo = ATVidioEditProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ED4CB1220CE256100D80D34 /* ATVidioEditProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATVidioEditProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED4CB1520CE256100D80D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ED4CB1620CE256100D80D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ED4CB1820CE256100D80D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4ED4CB1920CE256100D80D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4ED4CB1C20CE256100D80D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ED4CB1E20CE256300D80D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ED4CB2120CE256300D80D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ED4CB2320CE256300D80D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED4CB2420CE256300D80D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ED4CB2A20CE256300D80D34 /* ATVidioEditProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATVidioEditProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED4CB2E20CE256300D80D34 /* ATVidioEditProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATVidioEditProjectTests.m; sourceTree = "<group>"; };
+		4ED4CB3020CE256300D80D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED4CB3520CE256300D80D34 /* ATVidioEditProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATVidioEditProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED4CB3920CE256300D80D34 /* ATVidioEditProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATVidioEditProjectUITests.m; sourceTree = "<group>"; };
+		4ED4CB3B20CE256300D80D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ED4CB5220CE268100D80D34 /* FMVideoPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMVideoPlayController.m; sourceTree = "<group>"; };
+		4ED4CB5320CE268100D80D34 /* FMVideoPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMVideoPlayController.h; sourceTree = "<group>"; };
+		4ED4CB5520CE269B00D80D34 /* VideoHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoHeader.pch; sourceTree = "<group>"; };
+		4ED4CB5620CE26CC00D80D34 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		4ED4CB5720CE26CC00D80D34 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		4ED4CB5B20CE26E400D80D34 /* XCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFileManager.h; sourceTree = "<group>"; };
+		4ED4CB5C20CE26E400D80D34 /* XCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFileManager.m; sourceTree = "<group>"; };
+		4ED4CB6220CE4A0900D80D34 /* ATRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRecordTool.h; sourceTree = "<group>"; };
+		4ED4CB6320CE4A0900D80D34 /* ATRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRecordTool.m; sourceTree = "<group>"; };
+		4ED4CB6820CE4EE900D80D34 /* ATNewVidioPlayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATNewVidioPlayController.h; sourceTree = "<group>"; };
+		4ED4CB6920CE4EE900D80D34 /* ATNewVidioPlayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATNewVidioPlayController.m; sourceTree = "<group>"; };
+		4ED4CB6E20CE555500D80D34 /* ATEditAudioTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATEditAudioTool.h; sourceTree = "<group>"; };
+		4ED4CB6F20CE555600D80D34 /* ATEditAudioTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATEditAudioTool.m; sourceTree = "<group>"; };
+		4ED4CB7120CE55E100D80D34 /* ATVideoProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATVideoProgressView.h; sourceTree = "<group>"; };
+		4ED4CB7220CE55E200D80D34 /* ATVideoProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATVideoProgressView.m; sourceTree = "<group>"; };
+		4ED4CB7520CE576000D80D34 /* ATVidioView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATVidioView.h; sourceTree = "<group>"; };
+		4ED4CB7620CE576000D80D34 /* ATVidioView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATVidioView.m; sourceTree = "<group>"; };
+		4ED4CB7820CE585400D80D34 /* ATRecordController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATRecordController.h; sourceTree = "<group>"; };
+		4ED4CB7920CE585400D80D34 /* ATRecordController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATRecordController.m; sourceTree = "<group>"; };
+		4ED4CB7B20CE58E300D80D34 /* ATVidioModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATVidioModel.h; sourceTree = "<group>"; };
+		4ED4CB7C20CE58E300D80D34 /* ATVidioModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATVidioModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ED4CB0F20CE256100D80D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED4CB2720CE256300D80D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED4CB3220CE256300D80D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ED4CB0920CE256100D80D34 = {
+			isa = PBXGroup;
+			children = (
+				4ED4CB1420CE256100D80D34 /* ATVidioEditProject */,
+				4ED4CB2D20CE256300D80D34 /* ATVidioEditProjectTests */,
+				4ED4CB3820CE256300D80D34 /* ATVidioEditProjectUITests */,
+				4ED4CB1320CE256100D80D34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ED4CB1320CE256100D80D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4CB1220CE256100D80D34 /* ATVidioEditProject.app */,
+				4ED4CB2A20CE256300D80D34 /* ATVidioEditProjectTests.xctest */,
+				4ED4CB3520CE256300D80D34 /* ATVidioEditProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ED4CB1420CE256100D80D34 /* ATVidioEditProject */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4CB7420CE571600D80D34 /* Tool */,
+				4ED4CB5120CE267A00D80D34 /* Controller */,
+				4ED4CB4720CE265000D80D34 /* fileOut */,
+				4ED4CB1520CE256100D80D34 /* AppDelegate.h */,
+				4ED4CB1620CE256100D80D34 /* AppDelegate.m */,
+				4ED4CB1820CE256100D80D34 /* ViewController.h */,
+				4ED4CB1920CE256100D80D34 /* ViewController.m */,
+				4ED4CB1B20CE256100D80D34 /* Main.storyboard */,
+				4ED4CB1E20CE256300D80D34 /* Assets.xcassets */,
+				4ED4CB2020CE256300D80D34 /* LaunchScreen.storyboard */,
+				4ED4CB2320CE256300D80D34 /* Info.plist */,
+				4ED4CB2420CE256300D80D34 /* main.m */,
+			);
+			path = ATVidioEditProject;
+			sourceTree = "<group>";
+		};
+		4ED4CB2D20CE256300D80D34 /* ATVidioEditProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4CB5520CE269B00D80D34 /* VideoHeader.pch */,
+				4ED4CB2E20CE256300D80D34 /* ATVidioEditProjectTests.m */,
+				4ED4CB3020CE256300D80D34 /* Info.plist */,
+			);
+			path = ATVidioEditProjectTests;
+			sourceTree = "<group>";
+		};
+		4ED4CB3820CE256300D80D34 /* ATVidioEditProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4CB3920CE256300D80D34 /* ATVidioEditProjectUITests.m */,
+				4ED4CB3B20CE256300D80D34 /* Info.plist */,
+			);
+			path = ATVidioEditProjectUITests;
+			sourceTree = "<group>";
+		};
+		4ED4CB4720CE265000D80D34 /* fileOut */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4CB7120CE55E100D80D34 /* ATVideoProgressView.h */,
+				4ED4CB7220CE55E200D80D34 /* ATVideoProgressView.m */,
+				4ED4CB7520CE576000D80D34 /* ATVidioView.h */,
+				4ED4CB7620CE576000D80D34 /* ATVidioView.m */,
+				4ED4CB7B20CE58E300D80D34 /* ATVidioModel.h */,
+				4ED4CB7C20CE58E300D80D34 /* ATVidioModel.m */,
+			);
+			path = fileOut;
+			sourceTree = "<group>";
+		};
+		4ED4CB5120CE267A00D80D34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4CB5320CE268100D80D34 /* FMVideoPlayController.h */,
+				4ED4CB5220CE268100D80D34 /* FMVideoPlayController.m */,
+				4ED4CB6820CE4EE900D80D34 /* ATNewVidioPlayController.h */,
+				4ED4CB6920CE4EE900D80D34 /* ATNewVidioPlayController.m */,
+				4ED4CB7820CE585400D80D34 /* ATRecordController.h */,
+				4ED4CB7920CE585400D80D34 /* ATRecordController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4ED4CB7420CE571600D80D34 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4CB5B20CE26E400D80D34 /* XCFileManager.h */,
+				4ED4CB5C20CE26E400D80D34 /* XCFileManager.m */,
+				4ED4CB5620CE26CC00D80D34 /* UIColor+Hex.h */,
+				4ED4CB5720CE26CC00D80D34 /* UIColor+Hex.m */,
+				4ED4CB6E20CE555500D80D34 /* ATEditAudioTool.h */,
+				4ED4CB6F20CE555600D80D34 /* ATEditAudioTool.m */,
+				4ED4CB6220CE4A0900D80D34 /* ATRecordTool.h */,
+				4ED4CB6320CE4A0900D80D34 /* ATRecordTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ED4CB1120CE256100D80D34 /* ATVidioEditProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED4CB3E20CE256300D80D34 /* Build configuration list for PBXNativeTarget "ATVidioEditProject" */;
+			buildPhases = (
+				4ED4CB0E20CE256100D80D34 /* Sources */,
+				4ED4CB0F20CE256100D80D34 /* Frameworks */,
+				4ED4CB1020CE256100D80D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATVidioEditProject;
+			productName = ATVidioEditProject;
+			productReference = 4ED4CB1220CE256100D80D34 /* ATVidioEditProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ED4CB2920CE256300D80D34 /* ATVidioEditProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED4CB4120CE256300D80D34 /* Build configuration list for PBXNativeTarget "ATVidioEditProjectTests" */;
+			buildPhases = (
+				4ED4CB2620CE256300D80D34 /* Sources */,
+				4ED4CB2720CE256300D80D34 /* Frameworks */,
+				4ED4CB2820CE256300D80D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED4CB2C20CE256300D80D34 /* PBXTargetDependency */,
+			);
+			name = ATVidioEditProjectTests;
+			productName = ATVidioEditProjectTests;
+			productReference = 4ED4CB2A20CE256300D80D34 /* ATVidioEditProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ED4CB3420CE256300D80D34 /* ATVidioEditProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED4CB4420CE256300D80D34 /* Build configuration list for PBXNativeTarget "ATVidioEditProjectUITests" */;
+			buildPhases = (
+				4ED4CB3120CE256300D80D34 /* Sources */,
+				4ED4CB3220CE256300D80D34 /* Frameworks */,
+				4ED4CB3320CE256300D80D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ED4CB3720CE256300D80D34 /* PBXTargetDependency */,
+			);
+			name = ATVidioEditProjectUITests;
+			productName = ATVidioEditProjectUITests;
+			productReference = 4ED4CB3520CE256300D80D34 /* ATVidioEditProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ED4CB0A20CE256100D80D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Qiaojun Chen";
+				TargetAttributes = {
+					4ED4CB1120CE256100D80D34 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4ED4CB2920CE256300D80D34 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4ED4CB1120CE256100D80D34;
+					};
+					4ED4CB3420CE256300D80D34 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4ED4CB1120CE256100D80D34;
+					};
+				};
+			};
+			buildConfigurationList = 4ED4CB0D20CE256100D80D34 /* Build configuration list for PBXProject "ATVidioEditProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ED4CB0920CE256100D80D34;
+			productRefGroup = 4ED4CB1320CE256100D80D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ED4CB1120CE256100D80D34 /* ATVidioEditProject */,
+				4ED4CB2920CE256300D80D34 /* ATVidioEditProjectTests */,
+				4ED4CB3420CE256300D80D34 /* ATVidioEditProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ED4CB1020CE256100D80D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED4CB2220CE256300D80D34 /* LaunchScreen.storyboard in Resources */,
+				4ED4CB1F20CE256300D80D34 /* Assets.xcassets in Resources */,
+				4ED4CB1D20CE256100D80D34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED4CB2820CE256300D80D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED4CB3320CE256300D80D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ED4CB0E20CE256100D80D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED4CB7D20CE58E300D80D34 /* ATVidioModel.m in Sources */,
+				4ED4CB6A20CE4EE900D80D34 /* ATNewVidioPlayController.m in Sources */,
+				4ED4CB6420CE4A0900D80D34 /* ATRecordTool.m in Sources */,
+				4ED4CB5420CE268100D80D34 /* FMVideoPlayController.m in Sources */,
+				4ED4CB7320CE55E200D80D34 /* ATVideoProgressView.m in Sources */,
+				4ED4CB7720CE576000D80D34 /* ATVidioView.m in Sources */,
+				4ED4CB1A20CE256100D80D34 /* ViewController.m in Sources */,
+				4ED4CB5820CE26CC00D80D34 /* UIColor+Hex.m in Sources */,
+				4ED4CB2520CE256300D80D34 /* main.m in Sources */,
+				4ED4CB5E20CE26E400D80D34 /* XCFileManager.m in Sources */,
+				4ED4CB7A20CE585400D80D34 /* ATRecordController.m in Sources */,
+				4ED4CB1720CE256100D80D34 /* AppDelegate.m in Sources */,
+				4ED4CB7020CE555600D80D34 /* ATEditAudioTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED4CB2620CE256300D80D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED4CB2F20CE256300D80D34 /* ATVidioEditProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ED4CB3120CE256300D80D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED4CB3A20CE256300D80D34 /* ATVidioEditProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ED4CB2C20CE256300D80D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ED4CB1120CE256100D80D34 /* ATVidioEditProject */;
+			targetProxy = 4ED4CB2B20CE256300D80D34 /* PBXContainerItemProxy */;
+		};
+		4ED4CB3720CE256300D80D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ED4CB1120CE256100D80D34 /* ATVidioEditProject */;
+			targetProxy = 4ED4CB3620CE256300D80D34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ED4CB1B20CE256100D80D34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED4CB1C20CE256100D80D34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ED4CB2020CE256300D80D34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED4CB2120CE256300D80D34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ED4CB3C20CE256300D80D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ED4CB3D20CE256300D80D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ED4CB3F20CE256300D80D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5MDV59G5A;
+				GCC_PREFIX_HEADER = "/Users/qiaojunchen/Desktop/控件Demo/ppt/ATVidioEditProject/ATVidioEditProjectTests/VideoHeader.pch";
+				INFOPLIST_FILE = ATVidioEditProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ATRJ.ATVidioEditProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ED4CB4020CE256300D80D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H5MDV59G5A;
+				GCC_PREFIX_HEADER = "/Users/qiaojunchen/Desktop/控件Demo/ppt/ATVidioEditProject/ATVidioEditProjectTests/VideoHeader.pch";
+				INFOPLIST_FILE = ATVidioEditProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ATRJ.ATVidioEditProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ED4CB4220CE256300D80D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ATVidioEditProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ATRJ.ATVidioEditProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATVidioEditProject.app/ATVidioEditProject";
+			};
+			name = Debug;
+		};
+		4ED4CB4320CE256300D80D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ATVidioEditProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ATRJ.ATVidioEditProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATVidioEditProject.app/ATVidioEditProject";
+			};
+			name = Release;
+		};
+		4ED4CB4520CE256300D80D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ATVidioEditProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ATRJ.ATVidioEditProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATVidioEditProject;
+			};
+			name = Debug;
+		};
+		4ED4CB4620CE256300D80D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ATVidioEditProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ATRJ.ATVidioEditProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ATVidioEditProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ED4CB0D20CE256100D80D34 /* Build configuration list for PBXProject "ATVidioEditProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED4CB3C20CE256300D80D34 /* Debug */,
+				4ED4CB3D20CE256300D80D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED4CB3E20CE256300D80D34 /* Build configuration list for PBXNativeTarget "ATVidioEditProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED4CB3F20CE256300D80D34 /* Debug */,
+				4ED4CB4020CE256300D80D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED4CB4120CE256300D80D34 /* Build configuration list for PBXNativeTarget "ATVidioEditProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED4CB4220CE256300D80D34 /* Debug */,
+				4ED4CB4320CE256300D80D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED4CB4420CE256300D80D34 /* Build configuration list for PBXNativeTarget "ATVidioEditProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED4CB4520CE256300D80D34 /* Debug */,
+				4ED4CB4620CE256300D80D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ED4CB0A20CE256100D80D34 /* Project object */;
+}
